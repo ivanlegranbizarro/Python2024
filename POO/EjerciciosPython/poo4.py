@@ -38,3 +38,5 @@ estudiante1 = Estudiante("Iván", "Legrán", 38, ["Python", "Java"])
 
 
 print(estudiante1)
+
+estudiante1.come("fideos instantáneos")
