@@ -63,6 +63,6 @@ class Producto implements Comparable
 }
 
 
-$ordenador = new Producto('Ordenador', 2000);
-$impresora = new Producto('Impresora', 1000);
+$ordenador = new Producto('ordenador', 2000);
+$impresora = new Producto('impresora', 1000);
 echo $ordenador->compararPrecios($impresora);
