@@ -14,7 +14,7 @@ Sí, PHP es un lenguaje interpretado, lo que significa que no se necesita compil
 
 Sí, PHP también se considera un lenguaje de script. Los lenguajes de script se ejecutan dentro de un entorno existente, como un servidor web, para realizar tareas específicas. PHP es ideal para tareas de scripting del lado del servidor.
 
-## Diferencias entre bases de datos relacionales y no relacionales:**
+## Diferencias entre bases de datos relacionales y no relacionales:
 
 ### Bases de datos relacionales:
 
@@ -23,7 +23,7 @@ Sí, PHP también se considera un lenguaje de script. Los lenguajes de script se
 * Basadas en el modelo entidad-relación (E-R).
 * Ejemplos: MySQL, PostgreSQL, Oracle.
 
-### Bases de datos no relacionales:**
+### Bases de datos no relacionales:
 
 * Almacenan datos en estructuras no tabulares, como documentos, grafos o clave-valor.
 * Estructura flexible y escalable.
