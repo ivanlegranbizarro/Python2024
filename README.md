@@ -46,12 +46,12 @@ Un objeto es una instancia de una clase. Es una entidad individual con las carac
 * **Booleanos (bool):** True o False (ej: true, false).
 * **Arreglos (array):** Colecciones de datos (ej: $nombres = ["Juan", "María", "Pedro"]).
 
-### Tipos de datos más allá de los básicos:**
+### Tipos de datos más allá de los básicos:
 
 * **Objetos:** Instancias de clases.
 * **Recursos:** Conexiones a recursos externos (ej: archivos, bases de datos).
 * **NULL:** Valor que indica ausencia de datos.
 
-### ¿Qué es una API REST?**
+### ¿Qué es una API REST?
 
 API REST (Representational State Transfer) es una arquitectura de interfaz de programación que define un conjunto de reglas para el intercambio de datos entre aplicaciones. Se basa en el uso de métodos HTTP (GET, POST, PUT, DELETE) para acceder y modificar recursos en un servidor web. Las API REST son populares para crear servicios web y aplicaciones interconectadas.
