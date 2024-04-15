@@ -27,14 +27,14 @@ class Estudiante(Persona):
         super().__init__(nombre, apellido, edad)
         self.__materias = materias
 
-    def estudia(self, materia: str) -> None:
-        print(f"Estoy estudiando {materia}")
+    def estudia(self) -> None:
+        print(f"Estoy estudiando {self.__materias}")
 
     def __str__(self) -> str:
         return super().__str__() + f" Materias: {self.__materias}"
 
 
-estudiante1 = Estudiante("Iván", "Legrán", 38, "Python")
+estudiante1 = Estudiante("Iván", "Legrán", 38, ["Python", "Java"])
 
 
 print(estudiante1)
