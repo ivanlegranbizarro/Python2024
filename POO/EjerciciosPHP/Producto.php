@@ -8,7 +8,6 @@ interface Comparable
   public function compararPrecios(Producto $otro): string;
 }
 
-
 class Producto implements Comparable
 {
   public function __construct(
@@ -56,9 +55,14 @@ class Producto implements Comparable
   public function compararPrecios(Producto $otro): string
   {
     return match (true) {
-      $this->getPrecio() > $otro->getPrecio() => "{$this->getNombre()} es mayor que {$otro->getNombre()}",
-      $this->getPrecio() < $otro->getPrecio() => "{$this->getNombre()} es menor que {$otro->getNombre()}",
+      $this->getPrecio() > $otro->getPrecio() => "El precio de {$this->getNombre()} es mayor que {$otro->getNombre()}",
+      $this->getPrecio() < $otro->getPrecio() => "El precio de {$this->getNombre()} es menor que {$otro->getNombre()}",
       default => "{$this->getNombre()} es igual a {$otro->getNombre()}",
     };
   }
 }
+
+
+$ordenador = new Producto('Ordenador', 2000);
+$impresora = new Producto('Impresora', 1000);
+echo $ordenador->compararPrecios($impresora);
